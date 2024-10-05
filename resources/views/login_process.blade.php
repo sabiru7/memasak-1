@@ -17,4 +17,4 @@ if (!$user) {
     $_SESSION['user_login'] = $user;
     header("Location: ../index.php");
     exit();
-}
+} 
